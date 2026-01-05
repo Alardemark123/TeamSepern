@@ -75,7 +75,7 @@ export default function ContactPage() {
                     transition={{ duration: 0.2 }}
                   >
                     <Mail size={20} className="text-gray-400" />
-                    <span className="tracking-wide">hello@tmsepern.com</span>
+                    <span className="tracking-wide">sampleemail@teamsepern.com</span>
                   </motion.div>
                 </ScrollReveal>
 
@@ -86,8 +86,8 @@ export default function ContactPage() {
                     transition={{ duration: 0.2 }}
                   >
                     <Instagram size={20} className="text-gray-400" />
-                    <span className="tracking-wide">@tmsepern</span>
-                  </motion.div>
+                    <span className="tracking-wide">@sampleinstagramhandle</span>
+                  </motion.div> 
                 </ScrollReveal>
 
                 <ScrollReveal delay={0.4}>
@@ -97,7 +97,7 @@ export default function ContactPage() {
                     transition={{ duration: 0.2 }}
                   >
                     <MapPin size={20} className="text-gray-400" />
-                    <span className="tracking-wide">New York, NY</span>
+                    <span className="tracking-wide">Sample Address, Sample City, Sample State, Sample Country</span>
                   </motion.div>
                 </ScrollReveal>
               </div>

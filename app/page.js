@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* Hero Content */}
         <motion.div 
-          className="relative z-10 text-center text-white px-6"
+          className="relative z-10 text-center text-white px-6 md:px-8 lg:px-12 w-full"
           style={{ opacity: heroOpacity }}
         >
           <motion.div
@@ -52,9 +52,9 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3, ease: [0.6, 0.05, 0.01, 0.9] }}
           >
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-[0.2em] mb-6">
+            <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold tracking-[0.15em] md:tracking-[0.2em] mb-6 whitespace-nowrap">
               <AnimatedHeading type="letters" delay={0.5}>
-                TM SEPERN
+                TEAM SEPERN
               </AnimatedHeading>
             </h1>
           </motion.div>
