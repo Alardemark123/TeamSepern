@@ -52,7 +52,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3, ease: [0.6, 0.05, 0.01, 0.9] }}
           >
-            <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold tracking-[0.15em] md:tracking-[0.2em] mb-6 whitespace-nowrap">
+            <h1 className="text-[2.6rem] md:text-8xl lg:text-[9rem] font-bold tracking-[0.1em] md:tracking-[0.2em] mb-6 whitespace-nowrap">
               <AnimatedHeading type="letters" delay={0.5}>
                 TEAM SEPERN
               </AnimatedHeading>
@@ -63,9 +63,9 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1.2 }}
-            className="text-lg md:text-xl tracking-[0.3em] text-gray-300 mb-12 uppercase"
+            className="text-sm md:text-xl tracking-[0.3em] text-gray-300 mb-12  mt-4 uppercase"
           >
-            Modern Luxury Streetwear
+            Modern Luxury Streetwear • Crafted with Precision • Worn with Confidence
           </motion.p>
 
           <motion.div
